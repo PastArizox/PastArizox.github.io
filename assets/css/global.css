@@ -22,7 +22,8 @@ main section:nth-child(odd) {
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 0px 200px;
+    /* padding: 0px 200px; */
+    padding: 0px clamp(0px, 5vw, 200px);
     max-width: 1200px;
     margin: 60px auto;
     margin-right: auto;

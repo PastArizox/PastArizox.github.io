@@ -1,0 +1,25 @@
+#header {
+    width: 100%;
+    background-color: var(--dark_purple);
+    display: flex;
+    justify-content: center;
+    box-shadow: rgb(0 0 0 / 60%) 0px 5px 20px;
+    position: fixed;
+    z-index: 1000;
+}
+
+#nav_list {
+    margin: 20px 0;
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#nav_list li {
+    list-style: none;
+}
+
+.nav_item {
+    color: var(--white);
+    text-decoration: none;
+}

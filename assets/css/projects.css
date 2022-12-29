@@ -60,6 +60,11 @@
     color: var(--light_blue);
 }
 
+.project_footer img {
+    height: 30px;
+    width: 30px;
+}
+
 @media screen and (max-width: 1400px) {
     .project {
         padding: 20px;

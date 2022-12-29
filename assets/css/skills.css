@@ -35,6 +35,11 @@
     gap: 20px;
 }
 
+.skills_container img {
+    height: 100px;
+    width: 100px;
+}
+
 .skills_container p {
     color: var(--black_text);
     width: 100px;

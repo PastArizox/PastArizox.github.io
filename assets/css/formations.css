@@ -1,8 +1,8 @@
 #formation_content {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    flex-direction: row;
     flex-wrap: wrap;
     gap: 50px;
 }
@@ -17,14 +17,14 @@
     border-radius: 25px;
     box-shadow: 0px 0px 50px -20px black;
     gap: 30px;
-    width: 30%;
+    max-width: 300px;
 }
 
 .formation img {
     background-color: var(--white);
     border-radius: 15px;
     box-shadow: 0px 0px 50px -20px black;
-    height: 200px;
+    width: clamp(50px, 200px, 300px);
 }
 
 .formation_infos {

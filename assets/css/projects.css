@@ -27,6 +27,10 @@
     gap: 30px;
 }
 
+.project:nth-child(odd) .project_content {
+    flex-direction: row-reverse;
+}
+
 .project_content>img {
     width: clamp(300px, 50vw, 600px);
     /* height: clamp(100px, 50vw, 300px); */
@@ -46,6 +50,14 @@
     text-align: center;
     font-size: 18px;
     line-height: 30px;
+    background-color: var(--dark_purple);
+    padding: 25px;
+    border-radius: 25px;
+    border: 2px solid var(--dark_blue);
+}
+
+.project_infos p a {
+    color: var(--light_blue);
 }
 
 .project_footer {
@@ -63,6 +75,14 @@
 .project_footer img {
     height: 30px;
     width: 30px;
+}
+
+.btn_see_more {
+    padding: 10px;
+    border-radius: 25px;
+    border: 2px solid var(--dark_blue);
+    background-color: var(--dark_purple);
+    color: var(--white);
 }
 
 @media screen and (max-width: 1400px) {

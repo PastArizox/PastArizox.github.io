@@ -38,12 +38,12 @@
 .skills_container img {
     height: 100px;
     width: 100px;
-    transition: scale 0.5s;
+    /* transition: scale 0.5s; */
 }
 
-.skills_container img:hover {
+/* .skills_container img:hover {
     scale: 1.2;
-}
+} */
 
 .skills_container p {
     color: var(--black_text);

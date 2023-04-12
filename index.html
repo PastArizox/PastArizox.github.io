@@ -17,6 +17,8 @@
     <link rel="stylesheet" type="text/css" href="assets/css/experiences.css">
     <link rel="stylesheet" type="text/css" href="assets/css/contact.css">
     <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
+
+    <script src="assets/javascript/main.js" defer></script>
 </head>
 <body>
     <header id="header">
@@ -51,7 +53,7 @@
             <div class="content">
                 <a href="assets/files/cv_bastien_marache.pdf">
                     <!-- https://place-hold.it/400x400 -->
-                    <img id="logo" src="assets/images/home/logo.png" alt="Logo">
+                    <img class="animated-scale" id="logo" src="assets/images/home/logo.png" alt="Logo">
                 </a>
                 <div id="home_text_container">
                     <p>Salut ! Je suis</p>
@@ -86,6 +88,42 @@
                 <h1 class="section_title">Mes projets</h1>
                 <ul id="projects_content">
                     <li class="project">
+                        <h2>Circle.io</h2>
+                        <div class="project_content">
+                            <img src="assets/images/projects/circleio.png" alt="Classification Image">
+                            <div class="project_infos">
+                                <p>
+                                    Ce projet un un remake très basique du jeu très connu nommé <a href="https://agar.io">Agar.io</a>. Ce projet a été réalisé en équipe de 2 personnes pendant plusieurs semaines. Nous avons appris grâce à ce projet de nombreux concepts notamment l'architecture client-serveur.
+                                </p>
+                                <div class="project_footer">
+                                    <p>2023</p>
+                                    <p>Javascript</p>
+                                    <a class="btn_see_more animated-scale" href="#">Voir plus</a>
+                                </div>
+                                <div class="details hidden">
+                                    <h3>Détails</h3>
+
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="project">
+                        <h2>Rest API</h2>
+                        <div class="project_content">
+                            <img src="assets/images/projects/restapi.png" alt="Classification Image">
+                            <div class="project_infos">
+                                <p>
+                                    Ce projet est une API Rest fonctionnelle réalisée sur un serveur apache tomcat. Son but étant de pouvoir faire en sorte qu'un client puisse commander une pizza (grâce à des requêtes curl/http), créer sa propre pizza, ajouter des ingrédients, etc... Tout ceci a bien entendu été réalisé en Java.
+                                </p>
+                                <div class="project_footer">
+                                    <p>2023</p>
+                                    <p>Java</p>
+                                    <a class="btn_see_more animated-scale" href="#">Voir plus</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="project">
                         <h2>Classification</h2>
                         <div class="project_content">
                             <!-- https://place-hold.it/600x300 -->
@@ -100,10 +138,7 @@
                                 <div class="project_footer">
                                     <p>2022</p>
                                     <p>Java</p>
-                                    <!-- https://place-hold.it/30x30 -->
-                                    <!-- <a href="https://github.com/PastArizox/EscapeGame">
-                                        <img src="assets/icons/github.svg" alt="Logo Github">
-                                    </a> -->
+                                    <a class="btn_see_more animated-scale" href="#">Voir plus</a>
                                 </div>
                             </div>
                         </div>
@@ -112,6 +147,7 @@
                         <h2>Tovicon</h2>
                         <div class="project_content">
                             <!-- https://place-hold.it/600x300 -->
+                            <img src="assets/images/projects/tovicon.png" alt="Escape Game Image">
                             <div class="project_infos">
                                 <p>
                                     Ce projet est un jeu réalisé grâce à la méthode agile (Framework SCRUM). Il est inspiré 
@@ -123,13 +159,9 @@
                                 <div class="project_footer">
                                     <p>2022</p>
                                     <p>Java</p>
-                                    <!-- https://place-hold.it/30x30 -->
-                                    <!-- <a href="https://github.com/PastArizox/EscapeGame">
-                                        <img src="assets/icons/github.svg" alt="Logo Github">
-                                    </a> -->
+                                    <a class="btn_see_more animated-scale" href="#">Voir plus</a>
                                 </div>
                             </div>
-                            <img src="assets/images/projects/tovicon.png" alt="Escape Game Image">
                         </div>
                     </li>
                     <li class="project">
@@ -148,9 +180,10 @@
                                     <p>2022</p>
                                     <p>C#</p>
                                     <!-- https://place-hold.it/30x30 -->
-                                    <a href="https://github.com/PastArizox/EscapeGame">
+                                    <a class="animated-scale" href="https://github.com/PastArizox/EscapeGame">
                                         <img src="assets/icons/github.svg" alt="Logo Github">
                                     </a>
+                                    <a class="btn_see_more animated-scale" href="#">Voir plus</a>
                                 </div>
                             </div>
                         </div>
@@ -158,6 +191,7 @@
                     <li class="project">
                         <h2>Discord RPC Maker</h2>
                         <div class="project_content">
+                            <img src="assets/images/projects/discordrpcmaker.png" alt="Discord RPC Maker Image">
                             <div class="project_infos">
                                 <p>
                                     Ce projet est un logiciel qui permet d'initialiser et d'afficher un RPC (Rich PrensenCe) sur 
@@ -167,12 +201,12 @@
                                 <div class="project_footer">
                                     <p>2022</p>
                                     <p>C#</p>
-                                    <a href="https://github.com/PastArizox/Discord-RPC-Maker">
+                                    <a class="animated-scale" href="https://github.com/PastArizox/Discord-RPC-Maker">
                                         <img src="assets/icons/github.svg" alt="Logo Github">
                                     </a>
+                                    <a class="btn_see_more animated-scale" href="#">Voir plus</a>
                                 </div>
                             </div>
-                            <img src="assets/images/projects/discordrpcmaker.png" alt="Discord RPC Maker Image">
                         </div>
                     </li>
                     <li class="project">
@@ -189,9 +223,7 @@
                                 <div class="project_footer">
                                     <p>2020</p>
                                     <p>Python</p>
-                                    <!-- <a href="https://google.fr/">
-                                        <img src="assets/icons/github.svg" alt="Logo Github">
-                                    </a> -->
+                                    <a class="btn_see_more animated-scale" href="#">Voir plus</a>
                                 </div>
                             </div>
                         </div>
@@ -208,35 +240,35 @@
                         <div class="skills_container">
                             <ul>
                                 <!-- https://place-hold.it/100x100 -->
-                                <li>
+                                <li class="animated-scale">
                                     <img src="assets/icons/c.svg" alt="Csharp Image">
                                     <p>C</p>
                                 </li>
-                                <li>
+                                <li class="animated-scale">
                                     <img src="assets/icons/csharp.svg" alt="Csharp Image">
                                     <p>Csharp</p>
                                 </li>
-                                <li>
+                                <li class="animated-scale">
                                     <img src="assets/icons/java.svg" alt="Java Image">
                                     <p>Java</p>
                                 </li>
-                                <li>
+                                <li class="animated-scale">
                                     <img src="assets/icons/postgresql.svg" alt="Postgresql Image">
                                     <p>Postgresql</p>
                                 </li>
-                                <li>
+                                <li class="animated-scale">
                                     <img src="assets/icons/html5.svg" alt="HTML5 Image">
                                     <p>HTML5</p>
                                 </li>
-                                <li>
+                                <li class="animated-scale">
                                     <img src="assets/icons/css3.svg" alt="CSS3 Image">
                                     <p>CSS3</p>
                                 </li>
-                                <li>
+                                <li class="animated-scale">
                                     <img src="assets/icons/bash.svg" alt="Bash Image">
                                     <p>Bash</p>
                                 </li>
-                                <li>
+                                <li class="animated-scale">
                                     <img src="assets/icons/python.svg" alt="Python Image">
                                     <p>Python</p>
                                 </li>
@@ -247,15 +279,15 @@
                         <h2>Logiciels</h2>
                         <div class="skills_container">
                             <ul>
-                                <li>
+                                <li class="animated-scale">
                                     <img src="assets/icons/visualstudio.svg" alt="Visual Studio Image">
                                     <p>Visual Studio</p>
                                 </li>
-                                <li>
+                                <li class="animated-scale">
                                     <img src="assets/icons/visualstudiocode.svg" alt="Visual Studio Code Image">
                                     <p>Visual Studio Code</p>
                                 </li>
-                                <li>
+                                <li class="animated-scale">
                                     <img src="assets/icons/intellijidea.svg" alt="IntelliJ Idea Image">
                                     <p>IntelliJ Idea</p>
                                 </li>
@@ -266,11 +298,11 @@
                         <h2>Autre</h2>
                         <div class="skills_container">
                             <ul>
-                                <li>
+                                <li class="animated-scale">
                                     <img src="assets/icons/linux.svg" alt="Linux Image">
                                     <p>Linux</p>
                                 </li>
-                                <li>
+                                <li class="animated-scale">
                                     <img src="assets/icons/git.svg" alt="Git Image">
                                     <p>Git</p>
                                 </li>
@@ -344,27 +376,27 @@
                 <h1 class="section_title">Comment me contacter ?</h1>
                 <ul id="contact_content">
                     <!-- https://place-hold.it/50x50 -->
-                    <li class="contact">
+                    <li class="contact animated-scale">
                         <a href="https://fr.linkedin.com/in/bastien-marache-ab9a90232">
                             <img src="assets/icons/linkedin.svg" alt="LinkedIn Image">
                         </a>
                     </li>
-                    <li class="contact">
+                    <li class="contact animated-scale">
                         <a href="https://github.com/PastArizox">
                             <img src="assets/icons/github.svg" alt="Github Image">
                         </a>
                     </li>
-                    <li class="contact">
+                    <li class="contact animated-scale">
                         <a href="https://gitlab.com/PastArizox">
                             <img src="assets/icons/gitlab.svg" alt="Gitlab Image">
                         </a>
                     </li>
-                    <li class="contact">
+                    <li class="contact animated-scale">
                         <a href="https://discoid.cc/875075024397156383">
                             <img src="assets/icons/discord.svg" alt="Discord Image">
                         </a>
                     </li>
-                    <li class="contact">
+                    <li class="contact animated-scale">
                         <a href="mailto:bastien.marache@gmail.com">
                             <img src="assets/icons/email.svg" alt="Mail Image">
                         </a>

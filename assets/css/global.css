@@ -25,7 +25,7 @@ main section:nth-child(odd) {
     /* padding: 0px 200px; */
     padding: 0px clamp(0px, 5vw, 200px);
     max-width: 1200px;
-    margin: 60px auto;
+    margin: 100px auto;
     margin-right: auto;
     margin-left: auto;
     gap: 45px;
@@ -39,4 +39,16 @@ main section:nth-child(odd) {
 
 main section:nth-child(even) .section_title {
     color: var(--black_title);
+}
+
+.animated-scale {
+    transition: scale 0.5s;
+}
+
+.animated-scale:hover {
+    scale: 1.1;
+}
+
+.hidden {
+    display: none;
 }

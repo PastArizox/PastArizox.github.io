@@ -7,7 +7,11 @@ buttonSeeMoreList.forEach((button) => {
         const details =
             event.target.parentElement.parentElement.querySelector(".details");
         if (details) {
-            details.classList.remove("hidden");
+            if (details.classList.contains("hidden")) {
+                details.classList.remove("hidden");
+            } else {
+                details.classList.add("hidden");
+            }
         } else {
             console.log("Pas de détails");
         }
